@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+    </body>
+</html>
+
+<script>
+    var rent = parseFloat(prompt('So tien vay: '));
+    var rate = parseFloat(prompt("Lai suat la: ", "3%"));
+    var n = parseFloat(prompt("So nam: "));
+    interest = rent * (rate/100); 
+    result = interest * n + rent;
+    var result = result.toLocaleString("en");
+    document.write(result, " la so tien phai tra sau " + n + " nam");
+</script>
